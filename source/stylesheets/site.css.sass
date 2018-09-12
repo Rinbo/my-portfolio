@@ -1,0 +1,52 @@
+@import social
+  
+body
+  background-color: lightgray
+  color: #333
+  font-family: 'Share Tech', sans-serif
+  margin: 0
+  
+
+a
+  color: rgba(#000, 0.7)
+
+  &:focus, &:hover
+    color: rgba(#000, 0.6)
+
+.myContainer
+  margin: auto
+  width: 60%
+  min-height: 100vh
+  border: black solid
+  padding: 15px
+
+.navbar
+  position: fixed
+  display: absolute
+  left: 0
+  top: 0
+  border: solid black
+  height: 100vh
+  width: 100px
+  color: #00cccc
+
+.masthead
+  min-height: 100vh
+  background-image: url("/images/tree.JPG")
+  background-position: center center
+  background-size: cover
+  &:before
+    content: ''
+    position: absolute
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
+    background-image: linear-gradient(to bottom, transparent 85%, lightgray)
+    
+    
+    
+
+
+
+
