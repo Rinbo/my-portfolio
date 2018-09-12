@@ -28,8 +28,7 @@ a
   align-content: center
   grid-row-gap: 40px
   left: 0
-  top: 0
-  border: solid black
+  top: 0  
   height: 100vh
   width: 130px
   color: #00cccc
@@ -38,12 +37,17 @@ a
   a    
     color: white
     text-decoration: none
-    //border: solid black
     margin: auto
     padding: 10px
     
     &:hover
       transform: scale(1.2)
+.nav-colored
+  background-color: rgba(0,0,0,0.5)
+  transition: background-color 1000ms linear
+.nav-transparent
+  background-color: transparent
+  transition: background-color 1000ms linear
 
 .masthead
   min-height: 100vh
@@ -57,4 +61,39 @@ a
     right: 0
     bottom: 0
     left: 0
-    background-image: linear-gradient(to bottom, transparent 85%, lightgray)
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 85%, lightgray)
+
+.title
+  margin: auto  
+  z-index: 1
+  color: white
+  position: relative  
+  h1
+    position: absolute
+    top: 25vh
+    left: 25vw
+    width: 70vw
+    font-size: 78px
+        
+    padding: 20px 0px 20px 30px    
+    box-sizing: border-box
+    animation: move 2.5s
+    animation-fill-mode: forwards
+
+  @keyframes move
+    0%
+      background-color: transparent      
+      left: 21vw
+      opacity: 0
+    70%      
+      background-color: transparent      
+      left: 25vw
+      opacity: 1
+    100%
+      background-color: rgba(0,0,0, 0.5)
+      left: 25vw
+
+
+/*.title-background
+  background-color: rgba(0,0,0, 0.5)
+  transition: background-color 1000ms linear*/
