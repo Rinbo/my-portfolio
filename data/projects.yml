@@ -1,5 +1,41 @@
-- name: My First Website
-  description: Simple HTML5 site I've built during the PrepCourse
-
+- name: Address book
+  description: JS experiment with local storage
+  link: https://borjessons.nu/address-book/
+  image: /images/heart.jpg
+- name: BMI Calculator
+  description: JavaScript BMI Calculator
+  link: https://rinbo.github.io/bmi-challenge/src/index.html
+  image: /images/bmi-calculator.png
 - name: FizzBuzz
-  description: My frist test driven ruby project
+  description: Test driven ruby project
+  link: https://borjessons.nu/fizzbuzz-js/
+  image: /images/fwt.png
+- name: The Forge
+  description: Micro blog created with rails
+  link: https://secret-crag-61716.herokuapp.com/
+  image: /images/micro.png
+- name: Title Maker
+  description: Experimental React-app
+  link: https://rinbo.github.io/title-maker/
+  image: /images/react.jpg
+- name: Explochromatic
+  description: Product Landing Page
+  link: https://borjessons.nu/fireworks.html
+  image: /images/prod1.jpg
+- name: Mathematics
+  description: Survey form
+  link: https://borjessons.nu/survey.html
+  image: /images/math.jpg
+- name: The tree
+  description: A tribute page
+  link: https://borjessons.nu/tribute.html
+  image: /images/tree-bw.jpg
+- name: My blog
+  description: Sharing my thoughts about whatever comes to mind
+  link: https://rr-repo.herokuapp.com/
+  image: /images/rr-blog.jpg
+- name: Tech Doc Page
+  description: Ruby technical documentation
+  link: https://borjessons.nu/tech-doc.html
+  image: /images/tech-doc.jpg
+

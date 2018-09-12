@@ -1,10 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     setTimeout
-    let myNav = document.querySelector('nav');
-    /*let borjessons = document.getElementById('borjessons')
-    setTimeout( () => {
-        borjessons.classList.add('title-background')
-    },500)*/
+    let myNav = document.querySelector('nav');    
     document.addEventListener('scroll', (e) => { 
         
         if (window.scrollY >= 300 ) {

@@ -1,0 +1,52 @@
+// VARIABLES
+$bg-color: #e0e2e6
+$heading-color: #271404
+$navbar-bgcolor: #536c9e
+$shadow-color: #7f837f
+$navbar-tcolor: #f2f2f2
+$project-border-color: black
+$project-info-color: #536c9e
+$profile-link-color: #00cccc
+$project-title-color: rgba(220, 220, 220, 0.8)
+   
+.project-area
+    display: grid    
+    grid-template-columns: auto auto auto
+    grid-template-rows: auto
+    grid-gap: 30px
+
+.project-main
+    width: 250px
+    height: 250px
+    border: solid $project-border-color
+    justify-self: center
+    margin: auto
+    background-size: 100%
+    background-repeat: no-repeat
+    position: relative
+    &:hover
+        transform: scale(1.05)
+        transition: transform 500ms
+
+.project-title
+    width: 80%
+    height: auto
+    background-color: $project-title-color
+    color: $heading-color
+    text-align: center
+    font-size: 25px
+    line-height: 60px
+    margin: 15px auto
+    text-transform: uppercase
+    text-decoration: none 
+
+.project-info
+    position: absolute
+    text-align: center
+    width: 92%
+    padding: 10px
+    background-color: $project-title-color
+    color: $heading-color
+    bottom: 0
+    font-size: 17px
+
