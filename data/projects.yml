@@ -1,6 +1,6 @@
 - name: Address book
   description: JS experiment with local storage
-  link: https://borjessons.nu/address-book/
+  link: https://rinbo.github.io/address-book/
   image: /images/heart.jpg
 - name: BMI Calculator
   description: JavaScript BMI Calculator
@@ -8,7 +8,7 @@
   image: /images/bmi-calculator.png
 - name: FizzBuzz
   description: Test driven ruby project
-  link: https://borjessons.nu/fizzbuzz-js/
+  link: https://rinbo.github.io/fizzbuzz-js/
   image: /images/fwt.png
 - name: The Forge
   description: Micro blog created with rails
@@ -20,15 +20,15 @@
   image: /images/react.jpg
 - name: Explochromatic
   description: Product Landing Page
-  link: https://borjessons.nu/fireworks.html
+  link: https://rinbo.github.io/fireworks.html
   image: /images/prod1.jpg
 - name: Mathematics
   description: Survey form
-  link: https://borjessons.nu/survey.html
+  link: https://rinbo.github.io/survey.html
   image: /images/math.jpg
 - name: The tree
   description: A tribute page
-  link: https://borjessons.nu/tribute.html
+  link: https://rinbo.github.io/tribute.html
   image: /images/tree-bw.jpg
 - name: My blog
   description: Sharing my thoughts about whatever comes to mind
@@ -36,6 +36,6 @@
   image: /images/rr-blog.jpg
 - name: Tech Doc Page
   description: Ruby technical documentation
-  link: https://borjessons.nu/tech-doc.html
+  link: https://rinbo.github.io/tech-doc.html
   image: /images/tech-doc.jpg
 
