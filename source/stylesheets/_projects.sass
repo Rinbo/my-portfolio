@@ -1,11 +1,22 @@
+@media screen and (min-width: $viewpoint-threshold)
+    .project-area
+        max-width: 1000px
+        margin: 20px auto
+        display: grid    
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr))
+        grid-gap: 30px
+        grid-wrap: wrap
+        padding-bottom: 100px
 
-.project-area
-    max-width: 800px
-    margin: 20px auto
-    display: grid    
-    grid-template-columns: auto auto auto
-    grid-template-rows: auto
-    grid-gap: 30px
+@media screen and (max-width: $viewpoint-threshold)
+    .project-area
+        max-width: 800px
+        margin: 20px auto
+        display: grid    
+        grid-template-columns: auto
+        grid-template-rows: auto
+        grid-gap: 20px
+        padding-bottom: 60px
 
 .project-main
     width: 250px
