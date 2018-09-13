@@ -1,11 +1,11 @@
 %nav.navbar.nav-transparent 
-  %a{href: "#top", class: "fas fa-arrow-up fa-2x"}
+  %a{href: "#top", class: "fas fa-arrow-up fa-2x", id: "anim-link"}
   %a{href: "#projects", class: "fas fa-project-diagram fa-2x"}
   %a{href: "#about", class: "fas fa-file-alt fa-2x"}
 
 %header.masthead#top
-  .title
-    %h1#borjessons borjessons
+  .title#borjessons
+    %h1 borjessons
 %section.myContainer#projects
   %h1 Projects
   = partial 'partials/projects'
