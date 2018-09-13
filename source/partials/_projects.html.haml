@@ -1,0 +1,12 @@
+.project-area
+    - data.projects.each do |project|
+        %a{href: "#{project[:link]}", target: "_blank"}
+            %div{class: "project-main", style: "background-image: url(#{project[:image]})"}
+                .project-title
+                    = project[:name]
+                .project-info
+                    = project[:description]
+
+        //%h4= project[:name]
+        //%p= project[:description]
+

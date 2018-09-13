@@ -1,0 +1,111 @@
+
+@media screen and (min-width: $viewpoint-threshold)    
+  .title
+    margin: auto  
+    z-index: 1
+    color: white
+    position: relative  
+    h1
+      position: absolute
+      top: 25vh
+      left: 25vw
+      width: 70vw
+      font-size: 78px
+          
+      padding: 20px 0px 20px 30px    
+      box-sizing: border-box
+      animation: move 2.5s
+      animation-fill-mode: forwards
+  @keyframes move
+    0%
+      background-color: transparent      
+      left: 21vw
+      opacity: 0
+    70%      
+      background-color: transparent      
+      left: 25vw
+      opacity: 1
+    100%
+      background-color: rgba(0,0,0, 0.5)
+      left: 25vw
+
+
+@media screen and (max-width: $viewpoint-threshold)    
+  .title
+     
+    z-index: 1
+    color: white
+    position: relative  
+    h1
+      position: absolute
+      top: 14vh
+      display: block      
+      width: 100vw
+      font-size: 46px
+      overflow: hidden          
+      padding: 20px 0px 20px 30px    
+      box-sizing: border-box
+      animation: move 2.5s
+      animation-fill-mode: forwards
+  @keyframes move
+    0%
+      background-color: transparent      
+      left: 15vw
+      opacity: 0
+    70%      
+      background-color: transparent      
+      left: 20vw
+      opacity: 1
+    100%
+      background-color: rgba(0,0,0, 0.5)
+      left: 20vw
+
+.masthead
+  height: 100vh
+  background: url("/images/tree.JPG")
+  background-position: center center
+  background-size: cover
+  overflow: hidden
+  /* &:before
+    content: ''
+    position: absolute
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0    
+    background: linear-gradient(transparent 80%, $bg-color 100%) */
+
+.arrow-anim
+  animation: arrow 1s infinite ease
+  position: relative
+  opacity: 0.5
+  margin: 10px
+
+@keyframes arrow
+  0%
+    top: 0px
+  50%
+    top: -12px
+  100%
+    top: 0px
+
+.see-projects
+  font-size: 30px
+  width: 100%  
+  text-align: center
+  position: absolute
+  top: 80vh
+  a
+    text-decoration: none
+    color: white
+    display: block    
+    &:visited
+      color: white
+  
+
+
+    
+
+
+
+       
