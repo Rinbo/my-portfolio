@@ -1,3 +1,7 @@
+- name: Resume
+  description: My resume
+  link: https://rinbo.github.io/address-book/
+  image: /images/resume.png
 - name: Address book
   description: JS experiment with local storage
   link: https://rinbo.github.io/address-book/
@@ -9,11 +13,11 @@
 - name: FizzBuzz
   description: Test driven ruby project
   link: https://rinbo.github.io/fizzbuzz-js/
-  image: /images/fwt.png
+  image: /images/fizzbuzz.png
 - name: The Forge
   description: Micro blog created with rails
   link: https://secret-crag-61716.herokuapp.com/
-  image: /images/micro.png
+  image: /images/micro.jpeg
 - name: Title Maker
   description: Experimental React-app
   link: https://rinbo.github.io/title-maker/
