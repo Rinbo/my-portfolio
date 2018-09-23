@@ -2,7 +2,11 @@
   description: My resume
   link: https://rinbo.github.io/address-book/
   image: /images/resume.png
-- name: Address book
+- name: Open articles
+  description: Basic site for publishing articles
+  link: https://open-articles.herokuapp.com/
+  image: /images/open-articles.png
+- name: Address book  
   description: JS experiment with local storage
   link: https://rinbo.github.io/address-book/
   image: /images/heart.jpg
