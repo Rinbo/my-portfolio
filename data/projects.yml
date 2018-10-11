@@ -1,11 +1,15 @@
 - name: Resume
   description: My resume
-  link: https://rinbo.github.io/address-book/
+  link: https://borjesson-resume.netlify.com/
   image: /images/resume.png
-- name: Open articles
-  description: Basic site for publishing articles
-  link: https://open-articles.herokuapp.com/
-  image: /images/open-articles.png
+- name: The Forge
+  description: Micro blog created with rails
+  link: https://secret-crag-61716.herokuapp.com/
+  image: /images/micro.jpeg
+- name: Title Maker
+  description: Experimental React-app
+  link: https://rinbo.github.io/title-maker/
+  image: /images/react.jpg
 - name: Address book  
   description: JS experiment with local storage
   link: https://rinbo.github.io/address-book/
@@ -18,14 +22,10 @@
   description: Test driven ruby project
   link: https://rinbo.github.io/fizzbuzz-js/
   image: /images/fizzbuzz.png
-- name: The Forge
-  description: Micro blog created with rails
-  link: https://secret-crag-61716.herokuapp.com/
-  image: /images/micro.jpeg
-- name: Title Maker
-  description: Experimental React-app
-  link: https://rinbo.github.io/title-maker/
-  image: /images/react.jpg
+- name: My blog
+  description: Sharing my thoughts about whatever comes to mind
+  link: https://rr-repo.herokuapp.com/
+  image: /images/rr-blog.jpg
 - name: Explochromatic
   description: Product Landing Page
   link: https://rinbo.github.io/fireworks.html
@@ -38,10 +38,10 @@
   description: A tribute page
   link: https://rinbo.github.io/tribute.html
   image: /images/tree-bw.jpg
-- name: My blog
-  description: Sharing my thoughts about whatever comes to mind
-  link: https://rr-repo.herokuapp.com/
-  image: /images/rr-blog.jpg
+- name: Open articles
+  description: Basic site for publishing articles
+  link: https://open-articles.herokuapp.com/
+  image: /images/open-articles.png
 - name: Tech Doc Page
   description: Ruby technical documentation
   link: https://rinbo.github.io/tech-doc.html

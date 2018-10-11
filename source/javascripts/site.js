@@ -20,5 +20,23 @@ document.addEventListener('DOMContentLoaded', () => {
             myNav.classList.add("nav-transparent");
             myNav.classList.remove("nav-colored");
         }
-    });
+    });      
 });
+
+function scrollToElementWithId(id) {
+    let name = "";
+    switch (id) {
+        case 0:
+            name = "top"
+        break;
+        case 1:
+            name = "projects"
+        break;
+        case 2:
+            name = "about"
+        break;            
+        default:
+            scrollToElementWithId(0);
+    }
+    document.getElementById(name).scrollIntoView({behavior: "smooth", block: "start", inline: "start"});
+}  

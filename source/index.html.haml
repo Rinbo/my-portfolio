@@ -1,16 +1,17 @@
 %nav.navbar.nav-transparent 
-  %a{href: "#top", class: "fas fa-arrow-up fa-2x", id: "anim-link"}
-  %a{href: "#projects", class: "fas fa-project-diagram fa-2x"}
-  %a{href: "#about", class: "fas fa-file-alt fa-2x"}
+  %a{onclick: "scrollToElementWithId(0)", class: "fas fa-arrow-up fa-2x", id: "anim-link"}  
+  %a{onclick: "scrollToElementWithId(1)", class: "fas fa-project-diagram fa-2x"}
+  %a{onclick: "scrollToElementWithId(2)", class: "fas fa-file-alt fa-2x"}
 
 %header.masthead#top
   .title#borjessons
     %h1 borjessons
     .see-projects
       See projects
-      =link_to("", "#projects", class: "fas fa-angle-down fa-2x arrow-anim")      
+      %a{onclick: "scrollToElementWithId(1)", class: "fas fa-angle-down fa-2x arrow-anim"}     
 %section.myContainer#projects
   %h1 Projects
+  %p.project-paragraph Here is a collection of apps and websites that I have made. Practice makes perfect!
   = partial 'partials/projects'
 %section.profile#about
   = partial 'partials/about'
