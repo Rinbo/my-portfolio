@@ -11,8 +11,9 @@
       %a{onclick: "scrollToElementWithId(1)", class: "fas fa-angle-down fa-2x arrow-anim"}     
 %section.myContainer#projects
   %h1 Projects
-  %p.project-paragraph Here is a collection of apps and websites that I have made. Practice makes perfect!
-  = partial 'partials/projects'
+  %p.project-paragraph Here is a collection of apps and websites that I have made. More on #{link_to "Github", "https://github.com/Rinbo"}
+  = partial 'partials/projects'    
+  
 %section.profile#about
   = partial 'partials/about'
   .footer Copyright &copy Robin Börjesson

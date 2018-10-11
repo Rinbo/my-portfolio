@@ -10,6 +10,18 @@
   description: Experimental React-app
   link: https://rinbo.github.io/title-maker/
   image: /images/react.jpg
+- name: Neural Network
+  description: Digit recognition
+  link: https://github.com/Rinbo/ReluNNwithDropout
+  image: /images/nn.jpeg
+- name: RPS-JavaScript
+  description: Rock Paper Scissor 
+  link: https://rinbo.github.io/RPS-js/
+  image: /images/rps-js.jpg
+- name: Depolarize
+  description: Depolarized news 
+  link: https://depolarize.herokuapp.com/
+  image: /images/depolarize.jpg
 - name: Address book  
   description: JS experiment with local storage
   link: https://rinbo.github.io/address-book/
