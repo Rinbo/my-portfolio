@@ -1,28 +1,28 @@
 - name: Resume
   description: My resume
   link: https://borjesson-resume.netlify.com/
-  image: /images/resume.png
+  image: /images/resume1.png
 - name: The Forge
   description: Micro blog created with rails
   link: https://secret-crag-61716.herokuapp.com/
   image: /images/micro.jpeg
-- name: Title Maker
-  description: Experimental React-app
-  link: https://rinbo.github.io/title-maker/
-  image: /images/react.jpg
-- name: Neural Network
-  description: Digit recognition
-  link: https://github.com/Rinbo/ReluNNwithDropout
-  image: /images/nn.jpeg
 - name: RPS-JavaScript
   description: Rock Paper Scissor 
   link: https://rinbo.github.io/RPS-js/
   image: /images/rps-js.jpg
+- name: Neural Network
+  description: Digit recognition
+  link: https://github.com/Rinbo/ReluNNwithDropout
+  image: /images/nn.jpeg
+- name: Title Maker
+  description: Experimental React-app
+  link: https://rinbo.github.io/title-maker/
+  image: /images/react.jpg
 - name: Depolarize
   description: Depolarized news 
   link: https://depolarize.herokuapp.com/
   image: /images/depolarize.jpg
-- name: Address book  
+- name: Js Address book  
   description: JS experiment with local storage
   link: https://rinbo.github.io/address-book/
   image: /images/heart.jpg
@@ -30,18 +30,34 @@
   description: JavaScript BMI Calculator
   link: https://rinbo.github.io/bmi-challenge/src/index.html
   image: /images/bmi-calculator.png
-- name: FizzBuzz
-  description: Test driven ruby project
-  link: https://rinbo.github.io/fizzbuzz-js/
-  image: /images/fizzbuzz.png
+- name: Ionic BMI
+  description: BMI calculator created with Ionic
+  link: https://github.com/Rinbo/ionic-bmi-calculator
+  image: /images/ionic-bmi.jpeg
 - name: My blog
   description: Sharing my thoughts about whatever comes to mind
   link: https://rr-repo.herokuapp.com/
   image: /images/rr-blog.jpg
-- name: Explochromatic
-  description: Product Landing Page
-  link: https://rinbo.github.io/fireworks.html
-  image: /images/prod1.jpg
+- name: Cooper Test Client
+  description: Cooper test mobile app created with ionic
+  link: https://github.com/Rinbo/cooper-client
+  image: /images/cooper-client.png
+- name: Cooper Backend
+  description: Cooper test backend API
+  link: https://github.com/Rinbo/cooper-api
+  image: /images/cooper-api.png
+- name: Ng Address Book
+  description: Simple address book created with angular
+  link: https://github.com/Rinbo/angular-address-book
+  image: /images/angular-ab.png
+- name: Open articles
+  description: Basic site for publishing articles
+  link: https://open-articles.herokuapp.com/
+  image: /images/open-articles.png
+- name: FizzBuzz
+  description: Test driven ruby project
+  link: https://rinbo.github.io/fizzbuzz-js/
+  image: /images/fizzbuzz.png
 - name: Mathematics
   description: Survey form
   link: https://rinbo.github.io/survey.html
@@ -50,12 +66,9 @@
   description: A tribute page
   link: https://rinbo.github.io/tribute.html
   image: /images/tree-bw.jpg
-- name: Open articles
-  description: Basic site for publishing articles
-  link: https://open-articles.herokuapp.com/
-  image: /images/open-articles.png
 - name: Tech Doc Page
   description: Ruby technical documentation
   link: https://rinbo.github.io/tech-doc.html
   image: /images/tech-doc.jpg
+
 
