@@ -1,12 +1,17 @@
+#myModal.modal  
+  .modal-content
+    %span.close &times;
+    %p Some text in the Modal..
+    %p= data.projects[0][:name]
+    
 .project-area
-    - data.projects.each do |project|
-        %a{href: "#{project[:link]}", target: "_blank"}
-            %div{class: "project-main", style: "background-image: url(#{project[:image]})"}
-                .project-title
-                    = project[:name]
-                .project-info
-                    = project[:description]
-
-        //%h4= project[:name]
-        //%p= project[:description]
-
+  - p_variable = 0
+  - data.projects.each do |project|
+    %div{id: "project#{p_variable}", onclick: "openModal()"}
+      %a
+        %div{class: "project-main", style: "background-image: url(#{project[:image]})"}
+          .project-title
+            = project[:name]
+          .project-info
+            = project[:description]
+            - p_variable +=1
