@@ -7,7 +7,7 @@
 .project-area
   - p_variable = 0
   - data.projects.each do |project|
-    %div{id: "project#{p_variable}", onclick: "openModal()"}
+    %div{id: "project_#{p_variable}", onclick: "openModal(#{p_variable})"}
       %a
         %div{class: "project-main", style: "background-image: url(#{project[:image]})"}
           .project-title
@@ -15,3 +15,8 @@
           .project-info
             = project[:description]
             - p_variable +=1
+    %div{id: "myModal_#{p_variable}", class: "modal"}  
+      .modal-content
+        %span.close &times;
+        %p Some text in the Modal..
+        %p= data.projects[0][:name]
