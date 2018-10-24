@@ -2,73 +2,127 @@
   description: My resume
   link: https://borjesson-resume.netlify.com/
   image: /images/resume1.png
+  long_description: This resume, unlike my portfolio website, is based on a template. However I had to customize it extensively in order to make it work with the Middleman framework. In particular making the jquery dependencies fly was a hazzle. Projects, experience and certificates are stored in a yaml file and coded in partials using a ruby loop. The partials are then rendered on in the index file. This makes for a very tidy and clean code base. As a matter of fact, the index file is just 15 lines of code. 
+  technologies: Middlman, Jquery, JavaScript, Ruby, HTML/CSS, Netlify
+  github_link: https://github.com/Rinbo/resume
 - name: The Forge
   description: Micro blog created with rails
   link: https://secret-crag-61716.herokuapp.com/
   image: /images/micro.jpeg
+  long_description: This is a twitter-like microblog that I created to prepare for Craft Academy. Sign-up (complete with activation email through Heroku addon SendGrid), make microposts and post images (which get stored on AWS S3). Follow other users and have them follow you. Credit to railstutorial.org.
+  technologies: Ruby on Rails, JavaScript, HTML/CSS, Heroku, SendGrid, AWS-S3, Gravatar
+  github_link: https://github.com/Rinbo/theforge 
 - name: RPS-JavaScript
   description: Rock Paper Scissor 
   link: https://rinbo.github.io/RPS-js/
   image: /images/rps-js.jpg
+  long_description: The classic Rock Paper Sciccor game in a web interface that I made as part of a tech interview training exercise at Craft Academy. I began by prototyping the game in ruby and then went on to implement it in JavaScript using a testdriven approach with Chai and cucumber.
+  technologies: JavaScript, HTML/CSS, Cucumber, Chai
+  github_link: https://github.com/Rinbo/RPS-js
 - name: Neural Network
   description: Digit recognition
-  link: https://github.com/Rinbo/ReluNNwithDropout
+  link: 
   image: /images/nn.jpeg
+  long_description: This project is my attempt at putting my machine learning training into practice. I wanted to make a digit recognition model that was able to achieve a non-trivial level of accuracy. After having programmed a dozen different models that only reached around 95-96% accuracy on the cross validation set, I decided to leverege my experience from those models. The result was this network which uses dropout for regularization and leaky rectified units for activation. Due to the nature of dropout the training took one week (on my PC that I locked in a closet). The result was 98.02% accuracy on the crossvalidation set which I am quite proud of. No external libraries were used. 
+  technologies: Matlab/Octave
+  github_link: https://github.com/Rinbo/ReluNNwithDropout
 - name: Title Maker
   description: Experimental React-app
   link: https://rinbo.github.io/title-maker/
   image: /images/react.jpg
+  long_description: This app is a playful experimentation with react. I took several lessons in React at Code Academy, and afterwards I wanted to make something to solidify that knowledge. It is quite trivial but makes use of many React practices.
+  technologies: React, JavaScript, HTML/CSS
+  github_link: https://github.com/Rinbo/title-maker
 - name: Depolarize
   description: Depolarized news 
   link: https://depolarize.herokuapp.com/
   image: /images/depolarize.jpg
+  long_description:
+  technologies:
+  github_link:  
 - name: Js Address book  
   description: JS experiment with local storage
   link: https://rinbo.github.io/address-book/
   image: /images/heart.jpg
+  long_description:
+  technologies:
+  github_link:  
 - name: BMI Calculator
   description: JavaScript BMI Calculator
   link: https://rinbo.github.io/bmi-challenge/src/index.html
   image: /images/bmi-calculator.png
+  long_description:
+  technologies:
+  github_link:  
 - name: Ionic BMI
   description: BMI calculator created with Ionic
   link: https://github.com/Rinbo/ionic-bmi-calculator
   image: /images/ionic-bmi.jpeg
+  long_description:
+  technologies:
+  github_link:  
 - name: My blog
   description: Sharing my thoughts about whatever comes to mind
   link: https://rr-repo.herokuapp.com/
   image: /images/rr-blog.jpg
+  long_description:
+  technologies:
+  github_link:  
 - name: Cooper Test Client
   description: Cooper test mobile app created with ionic
   link: https://github.com/Rinbo/cooper-client
   image: /images/cooper-client.png
+  long_description:
+  technologies:
+  github_link:  
 - name: Cooper Backend
   description: Cooper test backend API
   link: https://github.com/Rinbo/cooper-api
   image: /images/cooper-api.png
+  long_description:
+  technologies:
+  github_link:  
 - name: Ng Address Book
   description: Simple address book created with angular
   link: https://github.com/Rinbo/angular-address-book
   image: /images/angular-ab.png
+  long_description:
+  technologies:
+  github_link:  
 - name: Open articles
   description: Basic site for publishing articles
   link: https://open-articles.herokuapp.com/
   image: /images/open-articles.png
+  long_description:
+  technologies:
+  github_link:  
 - name: FizzBuzz
   description: Test driven ruby project
   link: https://rinbo.github.io/fizzbuzz-js/
   image: /images/fizzbuzz.png
+  long_description:
+  technologies:
+  github_link:  
 - name: Mathematics
   description: Survey form
   link: https://rinbo.github.io/survey.html
   image: /images/math.jpg
+  long_description:
+  technologies:
+  github_link:  
 - name: The tree
   description: A tribute page
   link: https://rinbo.github.io/tribute.html
   image: /images/tree-bw.jpg
+  long_description:
+  technologies:
+  github_link:  
 - name: Tech Doc Page
   description: Ruby technical documentation
   link: https://rinbo.github.io/tech-doc.html
   image: /images/tech-doc.jpg
+  long_description:
+  technologies:
+  github_link:  
 
 
