@@ -2,7 +2,7 @@
   description: My resume
   link: https://borjesson-resume.netlify.com/
   image: /images/resume1.png
-  long_description: This resume, unlike my portfolio website, is based on a template. However I had to customize it extensively in order to make it work with the Middleman framework. In particular making the jquery dependencies fly was a hazzle. Projects, experience and certificates are stored in a yaml file and coded in partials using a ruby loop. The partials are then rendered on in the index file. This makes for a very tidy and clean code base. As a matter of fact, the index file is just 15 lines of code. 
+  long_description: This is my resume site which I have implemented using the Middleman framework and deployed to Netlify. Projects, experience and certificates are stored in a yaml file and coded in partials using a ruby loop. The partials are then rendered in the index file. This makes for a very tidy and clean code base. As a matter of fact, the index file is just 15 lines of code. The resume site, unlike my portfolio site, is based on a templete.
   technologies: Middlman, Jquery, JavaScript, Ruby, HTML/CSS, Netlify
   github_link: https://github.com/Rinbo/resume
 - name: The Forge
