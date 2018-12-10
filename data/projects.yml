@@ -5,6 +5,13 @@
   long_description: This is my resume site which I have implemented using the Middleman framework and deployed to Netlify. Projects, experience and certificates are stored in a yaml file and coded in partials using a ruby loop. The partials are then rendered in the index file. This makes for a very tidy and clean code base. As a matter of fact, the index file is just 15 lines of code. The resume site, unlike my portfolio site, is based on a templete.
   technologies: Middlman, Jquery, JavaScript, Ruby, HTML/CSS, Netlify
   github_link: https://github.com/Rinbo/resume
+- name: Sqedule
+  description: Optimized staff planning
+  link: https://sqedule.herokuapp.com/
+  image: /images/sqedule.png
+  long_description: This was the final project Craft Academy. We developed this app for a client who wanted an MVP of an app that he had been planning for a while. A manager can enter his/her employees and the different shifts that are relevant for that compnay. This information is then passed on to an API endpoint for calculation of an optimized schedule based on a number of parameters.  
+  technologies: Ruby on Rails, Javascript, Heroku, Semaphore, Cucumber, Rspec, Pivotal Tracker, Git, Github 
+  github_link: https://github.com/Rinbo/sqedule
 - name: The Forge
   description: Micro blog created with rails
   link: https://secret-crag-61716.herokuapp.com/
@@ -26,13 +33,13 @@
   long_description: This project is my attempt at putting my machine learning training into practice. I wanted to make a digit recognition model that was able to achieve a non-trivial level of accuracy. After having programmed a dozen different models that only reached around 95-96% accuracy on the cross validation set, I decided to leverege my experience from those models. The result was this network which uses dropout for regularization and leaky rectified units for activation. Due to the nature of dropout the training took one week (on my PC that I locked in a closet). The result was 98.02% accuracy on the crossvalidation set which I am quite proud of. No external libraries were used. 
   technologies: Matlab/Octave
   github_link: https://github.com/Rinbo/ReluNNwithDropout
-- name: Title Maker
-  description: Experimental React-app
-  link: https://rinbo.github.io/title-maker/
+- name: Company Registry
+  description: React project
+  link: https://rinbo.github.io/company-registry-react/
   image: /images/react.jpg
-  long_description: This app is a playful experimentation with react. I took several lessons in React at Code Academy, and afterwards I wanted to make something to solidify that knowledge. It is quite trivial but makes use of many React practices.
-  technologies: React, JavaScript, HTML/CSS
-  github_link: https://github.com/Rinbo/title-maker
+  long_description: This app is a showcase in React. A user can enter the name of companies in the top view. In the bottom view the user can enter names of people and link those up to companies. The app is divided into four sections and each section has two cards than can be switched between using swipe gestures.
+  technologies: React, JavaScript, HTML/CSS, Material UI
+  github_link: https://github.com/Rinbo/company-registry-react
 - name: Depolarize
   description: Depolarized news 
   link: https://depolarize.herokuapp.com/
@@ -108,13 +115,6 @@
   link: https://rinbo.github.io/survey.html
   image: /images/math.jpg
   long_description: A simple website for practicing using HTML form elements. This website was made as part of the FreeCodeCamp responsive web design course.
-  technologies: HTML/CSS
-  github_link: https://github.com/Rinbo/rinbo.github.io
-- name: The tree
-  description: A tribute page
-  link: https://rinbo.github.io/tribute.html
-  image: /images/tree-bw.jpg
-  long_description: A simple website to practice styling. It is not much to show, but I like the poem :). It was made as part of the FreeCodeCamp responsive web design course.
   technologies: HTML/CSS
   github_link: https://github.com/Rinbo/rinbo.github.io
 - name: Tech Doc Page
