@@ -1,128 +1,42 @@
-- name: Resume
-  description: My resume
-  link: https://borjesson-resume.netlify.com/
-  image: /images/resume1.png
-  long_description: This is my resume site which I have implemented using the Middleman framework and deployed to Netlify. Projects, experience and certificates are stored in a yaml file and coded in partials using a ruby loop. The partials are then rendered in the index file. This makes for a very tidy and clean code base. As a matter of fact, the index file is just 15 lines of code. The resume site, unlike my portfolio site, is based on a templete.
-  technologies: Middlman, Jquery, JavaScript, Ruby, HTML/CSS, Netlify
-  github_link: https://github.com/Rinbo/resume
-- name: Sqedule
-  description: Optimized staff planning
-  link: https://sqedule.herokuapp.com/
-  image: /images/sqedule.png
-  long_description: This was the final project Craft Academy. We developed this app for a client who wanted an MVP of an app that he had been planning for a while. A manager can enter his/her employees and the different shifts that are relevant for that compnay. This information is then passed on to an API endpoint for calculation of an optimized schedule based on a number of parameters.  
-  technologies: Ruby on Rails, Javascript, Heroku, Semaphore, Cucumber, Rspec, Pivotal Tracker, Git, Github 
-  github_link: https://github.com/Rinbo/sqedule
-- name: The Forge
-  description: Micro blog created with rails
-  link: https://secret-crag-61716.herokuapp.com/
+- name: Speed Typing
+  description: Speed Typing practice for Coders
+  link: https://speedtyping.borjessons.nu/
   image: /images/micro.jpeg
-  long_description: This is a twitter-like microblog that I created to prepare for Craft Academy. Sign-up (complete with activation email through Heroku addon SendGrid), make microposts and post images (which get stored on AWS S3). Follow other users and have them follow you. Credit to railstutorial.org.
-  technologies: Ruby on Rails, JavaScript, HTML/CSS, Heroku, SendGrid, AWS-S3, Gravatar
-  github_link: https://github.com/Rinbo/theforge 
-- name: RPS-JavaScript
-  description: Rock Paper Scissor 
+  long_description: I wanted to create an app similar to 10FastFingers but for coders, and this was the result. I used only functional components, and global state management was achieved with with pure react (react context).
+  technologies: React, JavaScript, HTML/CSS, Java, AWS
+  github_link:
+    - https://github.com/Rinbo/speed-typing
+    - https://github.com/Rinbo/speed-typing-backend
+- name: Borjesson Grapher
+  description: Create your custom graphs and share them
   link: https://rinbo.github.io/RPS-js/
   image: /images/rps-js.jpg
   long_description: The classic Rock Paper Sciccor game in a web interface that I made as part of a tech interview training exercise at Craft Academy. I began by prototyping the game in ruby and then went on to implement it in JavaScript using a testdriven approach with Chai and cucumber.
   technologies: JavaScript, HTML/CSS, Cucumber, Chai
-  github_link: https://github.com/Rinbo/RPS-js
+  github_link: 
+    - https://github.com/Rinbo/RPS-js
 - name: Neural Network
   description: Digit recognition
-  link: 
+  link: https://predictor.borjessons.nu/
   image: /images/nn.jpeg
-  long_description: This project is my attempt at putting my machine learning training into practice. I wanted to make a digit recognition model that was able to achieve a non-trivial level of accuracy. After having programmed a dozen different models that only reached around 95-96% accuracy on the cross validation set, I decided to leverege my experience from those models. The result was this network which uses dropout for regularization and leaky rectified units for activation. Due to the nature of dropout the training took one week (on my PC that I locked in a closet). The result was 98.02% accuracy on the crossvalidation set which I am quite proud of. No external libraries were used. 
+  long_description: This project is my attempt at putting my machine learning training into practice. I wanted to make a digit recognition model that was able to achieve a non-trivial level of accuracy. After having programmed a dozen different models that only reached around 95-96% accuracy on the cross validation set, I decided to leverege my experience from those models. The result was this network which uses dropout for regularization and leaky rectified units for activation. Due to the nature of dropout the training took one week (on my PC that I locked in a closet). The result was 98.02% accuracy on the crossvalidation set which I am quite proud of. No external libraries were used.
   technologies: Matlab/Octave
-  github_link: https://github.com/Rinbo/ReluNNwithDropout
-- name: Company Registry
-  description: React project
-  link: https://rinbo.github.io/company-registry-react/
-  image: /images/react.jpg
-  long_description: This app is a showcase in React. A user can enter the name of companies in the top view. In the bottom view the user can enter names of people and link those up to companies. The app is divided into four sections and each section has two cards than can be switched between using swipe gestures.
-  technologies: React, JavaScript, HTML/CSS, Material UI
-  github_link: https://github.com/Rinbo/company-registry-react
-- name: Depolarize
-  description: Depolarized news 
-  link: https://depolarize.herokuapp.com/
-  image: /images/depolarize.jpg
-  long_description: This project was developed together with two class mates at Craft Academy by following agile methodologies. We had five days to come up with a concept, make a design sprint and then implement our feature stories. Upon entering the site, the user is asked for their political affiliation. Then they get served news from the opposite end of the political spectrum using API requests to newsapi.org. Signup can be made through facebook and a user can also make donations to us with Stripe. The app uses continuous integration and deployment.
-  technologies: Ruby on Rails, HTML/CSS/, Cucumber, Rspec, Semaphore, Coveralls, FactoryBot, NewsAPI, OAuth, Stripe, Devise, Pivotal Tracker, Heroku
-  github_link: https://github.com/Rinbo/depolarize
-- name: Js Address book  
-  description: JS experiment with local storage
-  link: https://rinbo.github.io/address-book/
-  image: /images/heart.jpg
-  long_description: This app was created using Behaviour Driven Development and pair programming as an exercise at Craft Academy. The user fills in the fields in a contact form and then that information gets displayed on a contact card and stored in the browser's local storage. 
+  github_link: 
+    - https://github.com/Rinbo/predict-digit
+- name: RPS-JavaScript
+  description: Rock Paper Scissor
+  link: https://rinbo.github.io/RPS-js/
+  image: /images/rps-js.jpg
+  long_description: The classic Rock Paper Sciccor game in a web interface that I made as part of a tech interview training exercise at Craft Academy. I began by prototyping the game in ruby and then went on to implement it in JavaScript using a testdriven approach with Chai and cucumber.
   technologies: JavaScript, HTML/CSS, Cucumber, Chai
-  github_link: https://github.com/Rinbo/address-book 
-- name: BMI Calculator
-  description: JavaScript BMI Calculator
-  link: https://rinbo.github.io/bmi-challenge/src/index.html
-  image: /images/bmi-calculator.png
-  long_description: This is a simple JavaScript app in which the user inputs his weight and height in a web interface. The app then calculates that persons BMI-value in both metric and imperial units and displays it onscreen with a message describing the users healthiness.
-  technologies: JavaScript, HTML/CSS, Chai
-  github_link: https://github.com/Rinbo/bmi-challenge
-- name: Ionic BMI
-  description: BMI calculator created with Ionic
-  link: https://github.com/Rinbo/ionic-bmi-calculator
-  image: /images/ionic-bmi.jpeg
-  long_description: Mobile application in which the user enters his or her weight and height and gets returned their BMI score along with a message informing them about their BMI status. Programmed in Ionic3 and tested with Jasmine and Protractor
-  technologies: Ionic, TypeScript, HTML/CSS, Protractor, Jasmine, Karma
-  github_link: https://github.com/Rinbo/ionic-bmi-calculator
-- name: My blog
-  description: Sharing my thoughts about whatever comes to mind
-  link: https://rr-repo.herokuapp.com/
-  image: /images/rr-blog.jpg
-  long_description: This is my blog that I created a while back. It is in need of a design update but the functionality is working pretty well. I can access the backend in any browser and make posts through the admin interface. I use AWS S3 for picture uploads and Redcarpet for HTML markdown.
-  technologies: Ruby on Rails, JavaScript, HTML/CSS. Active Admin, RedCarpet Markdown, AWS-S3
-  github_link: https://github.com/Rinbo/reflective-rr
-- name: Cooper Test Client
-  description: Cooper test mobile app created with ionic
-  link: 
-  image: /images/cooper-client.png
-  long_description: This is the client side (mobile app) of the cooper application. A user can enter his/her cooper data and be served an evaluation. If the users want to store their results and see historical data presented in graphs, they must signup to the application. When doing this the client makes a call to a backend rails application which manages user authentification and storage in a PostgreSQL database (see backend app in projects).
-  technologies: Ionic, TypeScript, HTML/CSS, Protractor, Jasmine, Karma
-  github_link: https://github.com/Rinbo/cooper-client
-- name: Cooper Backend
-  description: Cooper test backend API
-  link:
-  image: /images/cooper-api.png
-  long_description: This app serves as the backend to an Ionic mobile app (see Cooper Test Client among my other projects), which provides a user with a cooper test performance evaluation. The backend manages user authenticaiton/authorization and data storage in a Postgres database. The Ionic client app communicates with the backend through API request.
-  technologies: Ruby on Rails, Heroku, Postgres
-  github_link: https://github.com/Rinbo/cooper-api
-- name: Ng Address Book
-  description: Simple address book created with angular
-  link:
-  image: /images/angular-ab.png
-  long_description: This app is an address book created with Angular using a test driven approach. The app is trivial and merely for learning to use Angular and the intricacies of testing such an application. The contact information that is put into the fields will displayed on a nicly formatted contact card but will not persist.
-  technologies: Angular, TypeScript, Jasmine, Protractor, Karma
-  github_link: https://github.com/Rinbo/angular-address-book  
-- name: Open articles
-  description: Basic site for publishing articles
-  link: https://open-articles.herokuapp.com/
-  image: /images/open-articles.png
-  long_description: This is a site for publishing articles on the web. An admin can log in and publish articles using the browser. Users can comment on those articles without signup. I haven't styled the site but I decided to publish it to display its simplicity yet pretty advanced features. Using ruby on rails I can start from nothing and have such a site up and running on heroku in 15 minutes.
-  technologies: Ruby on Rails, HTML/CSS, Cucumber, Rspec, Heroku
-  github_link: https://github.com/Rinbo/rails_bdd
-- name: FizzBuzz
-  description: Test driven ruby project
-  link: https://rinbo.github.io/fizzbuzz-js/
-  image: /images/fizzbuzz.png
-  long_description: The famous fizzbuzz coding challange programmed in Javascript using TDD and published in a web interface.
-  technologies: JavaScript, HTML/CSS, Chai
-  github_link: https://github.com/Rinbo/fizzbuzz-js
-- name: Mathematics
-  description: Survey form
-  link: https://rinbo.github.io/survey.html
-  image: /images/math.jpg
-  long_description: A simple website for practicing using HTML form elements. This website was made as part of the FreeCodeCamp responsive web design course.
-  technologies: HTML/CSS
-  github_link: https://github.com/Rinbo/rinbo.github.io
-- name: Tech Doc Page
-  description: Ruby technical documentation
-  link: https://rinbo.github.io/tech-doc.html
-  image: /images/tech-doc.jpg
-  long_description: A website to practice technical documentation design in a webpage format. I actually did not copy any of the information on the site. Instead I opted to write it down myself to better solidify my ruby knowledge. The site was made as part of the FreeCodeCamp responsive web design course.
-  technologies: HTML/CSS
-  github_link: https://github.com/Rinbo/rinbo.github.io
-
+  github_link: 
+    - https://github.com/Rinbo/RPS-js
+- name: Sqedule
+  description: Optimized staff planning
+  link: https://sqedule.herokuapp.com/
+  image: /images/sqedule.png
+  long_description: This was the final project Craft Academy. We developed this app for a client who wanted an MVP of an app that he had been planning for a while. A manager can enter his/her employees and the different shifts that are relevant for that compnay. This information is then passed on to an API endpoint for calculation of an optimized schedule based on a number of parameters.
+  technologies: Ruby on Rails, Javascript, Heroku, Semaphore, Cucumber, Rspec, Pivotal Tracker, Git, Github
+  github_link: 
+    - https://github.com/Rinbo/sqedule
 

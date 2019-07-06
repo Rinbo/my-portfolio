@@ -1,5 +1,6 @@
 .project-area
   - p_variable = 0
+  - github_type = ["Frontend", "Backend"]
   - data.projects.each do |project|
     %div{id: "project_#{p_variable}", onclick: "openModal(#{p_variable})"}
       %a
@@ -15,6 +16,10 @@
         %h2= project[:name].upcase
         %p= project[:long_description]
         %p= "Technologies used: #{project[:technologies]}"
-        %p= link_to "Link to Github", "#{project[:github_link]}", target: '_blank'
+        - if(project[:github_link].length > 1)
+          - project[:github_link].each_with_index do |link, index|
+            %p= link_to "Github (#{github_type[index]})", "#{link}", target: '_blank'
+        - else
+          %p= link_to "Link to Github", "#{project[:github_link]}", target: '_blank'
         %p= link_to "Link to Livesite", "#{project[:link]}", target: '_blank' if !project[:link].nil?
         - p_variable +=1
