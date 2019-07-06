@@ -20,6 +20,6 @@
           - project[:github_link].each_with_index do |link, index|
             %p= link_to "Github (#{github_type[index]})", "#{link}", target: '_blank'
         - else
-          %p= link_to "Link to Github", "#{project[:github_link]}", target: '_blank'
+          %p= link_to "Link to Github", "#{project[:github_link][0]}", target: '_blank'
         %p= link_to "Link to Livesite", "#{project[:link]}", target: '_blank' if !project[:link].nil?
         - p_variable +=1
