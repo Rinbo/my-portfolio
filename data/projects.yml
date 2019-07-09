@@ -33,7 +33,7 @@
   description: Rock Paper Scissor
   link: https://rinbo.github.io/RPS-js/
   image: /images/rps-js.jpg
-  long_description: The classic Rock Paper Sciccor game in a web interface that I made as part of a tech interview training exercise at Craft Academy. I began by prototyping the game in ruby and then went on to implement it in JavaScript using a testdriven approach with Chai and cucumber.
+  long_description: This is a web-based rock, paper, scissor game that I made way back in the days. My son likes to play it so I'll leave it up here.
   technologies: JavaScript, HTML/CSS, Cucumber, Chai
   github_link: 
     - https://github.com/Rinbo/RPS-js
@@ -41,7 +41,7 @@
   description: Optimized staff planning
   link: https://sqedule.herokuapp.com/
   image: /images/sqedule.png
-  long_description: "This was the final project Craft Academy. We developed this app for a client who wanted an MVP of an app that he had been planning for a while. A manager can enter his/her employees and the 
+  long_description: "A client wanted an MVP of an app that he had been planning for a while. A manager can enter his/her employees and the 
   different shifts that are relevant for that compnay. This information is then passed on to an API endpoint for calculation of an optimized schedule based on a number of parameters."
   technologies: Ruby on Rails, Javascript, Heroku, Semaphore, Cucumber, Rspec, Pivotal Tracker, Git, Github
   github_link: 
