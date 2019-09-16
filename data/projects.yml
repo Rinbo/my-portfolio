@@ -29,6 +29,15 @@
   technologies: Matlab/Octave, React, JavaScript, HTML Canvas
   github_link:
     - https://github.com/Rinbo/predict-digit/
+- name: Borjessons Airhockey
+  description: Play airhockey against a friend
+  link: https://airhockey.borjessons.nu/
+  image: /images/airhockey.jpg
+  long_description: Play airhockey against a friend or foe over the internet.
+  technologies: Elixir, Phoenix, React, JavaScript, HTML/CSS, AWS
+  github_link: 
+    - https://github.com/Rinbo/air-hockey-frontend
+    - https://github.com/Rinbo/air-hockey-backend
 - name: RPS-JavaScript
   description: Rock Paper Scissor
   link: https://rinbo.github.io/RPS-js/
